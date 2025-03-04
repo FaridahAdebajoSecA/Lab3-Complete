@@ -1,0 +1,73 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+h2, h3 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #535bf2;
+  transform: scale(1.05);
+}
+
+input[type="file"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  max-width: 250px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+}
+
+#preview img {
+  width: 80px;
+  margin: 5px;
+  border-radius: 8px;
+}
